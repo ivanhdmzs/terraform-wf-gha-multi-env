@@ -5,7 +5,7 @@ provider "aws" {
 
 # Create S3 bucket with workspace name
 resource "aws_s3_bucket" "env_bucket" {
-  bucket = "BucketIvan123"
+  bucket = "bucketivan123"
 
   tags = {
     Environment = terraform.workspace
